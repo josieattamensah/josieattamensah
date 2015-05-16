@@ -6,9 +6,6 @@ body {
 h1 {
 	color: #DB7093;
 }
-h2 {
+h2, h4 {
 	Color: #FFC0CB;
-}
-h4 {
-	color: #FFDAB9;
 }
