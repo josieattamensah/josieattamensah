@@ -11,6 +11,14 @@ h1 {
 
 }
 
+#slogan {
+	font-size: 
+}
+
 p {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+ul {
+	list-style-type: none;
 }
