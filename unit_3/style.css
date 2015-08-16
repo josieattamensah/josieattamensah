@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:700);
+@import url(http://fonts.googleapis.com/css?family=Tangerine:700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+
 body {
 	background-image: url(/unit_3/image/IMG_3523.jpg);
 	background-color: #F4931F;
@@ -7,18 +12,26 @@ body {
 }	
 h1 {
 	font-size: 400%;
-	font-family: Palantino, "Palantino LT STD", "Palantino Linotype", "Book Antiqua", Georgia, serif;
+	font-family: 'Cinzel', serif;
 
 }
 
 #slogan {
 	font-size: 200%;
+	font-family: 'Tangerine', cursive;
 }
 
 p {
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: 'PT Sans Caption', sans-serif;
+	line-height: 1.5em;
+	margin: 2em; 
 }
 
 ul {
 	list-style-type: none;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
 }
