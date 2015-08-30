@@ -3,6 +3,12 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 
+/** {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}*/
+
 body {
 	background-image: url(/unit_3/image/IMG_3523.jpg);
 	background-color: #F4931F;
@@ -19,8 +25,19 @@ h1 {
 #slogan {
 	font-size: 200%;
 	font-family: 'Tangerine', cursive;
-}
+/*}
+nav {
+	text-decoration: none;
+	margin: 1em;
+	color:#F9F1DC;
 
+}*/
+nav {
+	width:370px;
+	margin: auto;
+	padding: 1em 0;
+
+}
 p {
 	font-family: 'PT Sans Caption', sans-serif;
 	line-height: 1.5em;
