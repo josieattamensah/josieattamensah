@@ -14,3 +14,15 @@ h1 {
 /*	font-family: 'Peddana', serif;*/
 /*	font-family: 'Quattrocento', serif;*/
 }
+
+#topnav{
+	background-color:#ff0000;
+}
+
+#mainnav{
+	background-color:#ffff00;
+}
+
+#title{
+	background-color:#00ff00;
+}
