@@ -35,7 +35,12 @@ h1 {
 	padding:40px;
 }
 
-#featured{
+#feature1{
 	background-color:#450000;
-	width: auto;
+	float: left;
+}
+
+#feature2{
+	background-color:#440000;
+	float: left;	
 }
