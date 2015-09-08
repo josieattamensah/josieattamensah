@@ -35,39 +35,59 @@ a {
 }
 
 img {
+/*	width: 583px;*/
 	max-width: 100%;
 	height: auto;
 }
 
+.col2 {
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+
+
+.col2 img {
+	width: 100%;
+
+}
+
+.wrap {
+/*	width: 1165px;*/
+	margin: 0 auto;
+}
+
 #topnav{
-/*	background-color:#ff0000;*/
+	background-color:#ff0000;
 	text-align: right;
 	padding: 15px 15px 0 0;
 }
 
 #mainnav{
-/*	background-color:#ffff00;*/
+	background-color:#ffff00;
 	text-align: center;
 	margin: auto;
 	padding: 0px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #title{
-/*	background-color:#00ff00;*/
+	background-color:#00ff00;
 	width: 300px;
 	text-align: left;
 	padding-left:40px;
 /*	how to center from top of screen to top of main nav?????????*/
 }
 
-#feature1{
+/*#feature1{
 	background-color:#450000;
-	float: left;
+	float: inherit;
+	display: block;
+	margin: auto auto;
 }
 
 #feature2{
-	background-color:#440000;
-	float: left;	
+	background-color:#340000;
+	float: center;	*/
 }
