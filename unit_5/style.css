@@ -15,24 +15,51 @@ h1 {
 /*	font-family: 'Quattrocento', serif;*/
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color:#333;
+	padding: 20px;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 #topnav{
-	background-color:#ff0000;
+/*	background-color:#ff0000;*/
 	text-align: right;
+	padding: 15px 15px 0 0;
 }
 
 #mainnav{
-	background-color:#ffff00;
+/*	background-color:#ffff00;*/
 	text-align: center;
 	margin: auto;
-	padding: 20px;
+	padding: 0px;
 	text-decoration: none;
+	font-size: 20px;
 }
 
 #title{
-	background-color:#00ff00;
+/*	background-color:#00ff00;*/
 	width: 300px;
 	text-align: left;
-	padding:40px;
+	padding-left:40px;
+/*	how to center from top of screen to top of main nav?????????*/
 }
 
 #feature1{
