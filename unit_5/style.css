@@ -29,7 +29,7 @@ a {
 	text-decoration: none;
 	color:#333;
 	padding: 20px;
-	font-size: 14px;
+	/*font-size: 14px;*/
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
@@ -58,26 +58,36 @@ img {
 }
 
 #topnav{
-	background-color:#ff0000;
-	text-align: right;
+	/*background-color:#ff0000;*/
+	text-align: right; 
 	padding: 15px 15px 0 0;
+	font-size: 12px;
 }
 
 #mainnav{
-	background-color:#ffff00;
+	/*background-color:#ffff00;*/
 	text-align: center;
 	margin: auto;
 	padding: 0px;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 18px;
 }
 
 #title{
-	background-color:#00ff00;
+	/*background-color:#00ff00;*/
 	width: 300px;
 	text-align: left;
 	padding-left:40px;
 /*	how to center from top of screen to top of main nav?????????*/
+}
+
+#footernav{
+	background-color: #555555;
+	text-align: center;
+	margin: auto;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 10px;
 }
 
 /*#feature1{
