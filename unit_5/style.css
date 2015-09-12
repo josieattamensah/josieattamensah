@@ -62,6 +62,15 @@ img {
 	margin: 0 auto;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 #topnav{
 	/*background-color:#ff0000;*/
 	text-align: right; 
