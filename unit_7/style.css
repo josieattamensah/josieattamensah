@@ -10,16 +10,26 @@
 }*/
 
 body {
-	background-image: url(images/rhada.jpg);
-	background-color: #F4931F;
+/*	background-image: url(images/rhada.jpg);*/
+	background-color: #201d24;
 	text-align: center;
 	text-decoration: 
 }	
+
+header {
+	background-color: #201d24;
+}
 
 h1 {
 	font-size: 400%;
 	font-family: 'Cinzel', serif;
 	color: #ece0c7;
+}
+
+hr {
+	width: 36em;
+	color: #ece0c7;
+
 }
 
 a {
@@ -43,4 +53,17 @@ ul {
 
 h3 {
 	font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+	display: block;
+	width: 20%;
+	font-size: 1em;
+}
+
+#rhada {
+	width: 100%;
+	height: auto;
+	float: left;
+
 }
