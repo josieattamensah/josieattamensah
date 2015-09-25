@@ -10,34 +10,26 @@
 }*/
 
 body {
-	background-image: url(/unit_3/image/IMG_3523.jpg);
+	background-image: url(images/rhada.jpg);
 	background-color: #F4931F;
 	text-align: center;
 	text-decoration: 
-
 }	
+
 h1 {
 	font-size: 400%;
 	font-family: 'Cinzel', serif;
-
+	color: #ece0c7;
 }
 
-#slogan {
-	font-size: 200%;
-	font-family: 'Tangerine', cursive;
-/*}
-nav {
+a {
 	text-decoration: none;
-	margin: 1em;
-	color:#F9F1DC;
-
-}*/
-nav {
-	width:370px;
-	margin: auto;
-	padding: 1em 0;
-
+	color:#ece0c7;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
 p {
 	font-family: 'PT Sans Caption', sans-serif;
 	line-height: 1.5em;
