@@ -28,7 +28,7 @@ h1 {
 }
 
 hr {
-	width: 30%;
+	width: 18em;
 	color: #ece0c7;
 
 }
@@ -41,20 +41,20 @@ hr {
 }*/
 
 
-p {
+/*p {
 	font-family: 'PT Sans Caption', sans-serif;
 	line-height: 1.5em;
 	margin: 2em; 
-}
+}*/
 
 /*ul {
 	list-style-type: none;
 	font-family: 'PT Sans Caption', sans-serif;*/
-}
+/*}
 
 h3 {
 	font-family: 'Quicksand', sans-serif;
-}
+}*/
 
 nav {
 	/*display: block;*/
@@ -93,5 +93,9 @@ nav a:hover {
 	width: 80%;
 	height: auto;
 	float: left;
+}
 
+#paisley {
+	width: 3em;
+	height: auto;
 }
