@@ -3,58 +3,27 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 
-/** {
-	margin: 0;
-	padding: 0;
-	box-sizing:border-box;
-}*/
-
 body {
-/*	background-image: url(images/rhada.jpg);*/
 	background-color: #201d24;
-<<<<<<< HEAD
 	height: 100%;
-
 
 }	
 
 header {
 	background-color: #201d00;
-=======
-	text-align: center;
-	font-size: 16px;
 }	
 
-header {
-	background-color: #201d24;
-	width: 100%;
->>>>>>> origin/master
-}
-
-
 h1 {
-<<<<<<< HEAD
-/*	font-size: 4vw;
-	max-width: 50%*/
-=======
-	font-size: 2em;
->>>>>>> origin/master
 	font-family: 'Cinzel', serif;
 	color: #ece0c7;
 	text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 h2 {
 	font-size: 2em;
-=======
-hr {
-	width: 18em;
->>>>>>> origin/master
 	color: #ece0c7;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	text-decoration: none;
-<<<<<<< HEAD
 	list-style-type: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -64,30 +33,7 @@ hr {
 hr {
 	width: 20vw;
 	color: #ece0c7;
-/*	margin: 1em;*/
 }
-=======
-	color:#ece0c7;
-	font-size: 14px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}*/
-
-
-/*p {
-	font-family: 'PT Sans Caption', sans-serif;
-	line-height: 1.5em;
-	margin: 2em; 
-}*/
-
-/*ul {
-	list-style-type: none;
-	font-family: 'PT Sans Caption', sans-serif;*/
-/*}
-
-h3 {
-	font-family: 'Quicksand', sans-serif;
-}*/
->>>>>>> origin/master
 
 nav {
 	display: block;
@@ -147,7 +93,6 @@ nav a:hover {
 
 #rhada {
 	float: left;
-<<<<<<< HEAD
 	height: 100vh;
 	width: 60%;
 }
@@ -155,13 +100,6 @@ nav a:hover {
 #rhada img {
 	width: auto;
 	height: 100vh;
-=======
-}
-
-#paisley {
-	width: 3em;
-	height: auto;
->>>>>>> origin/master
 }
 
 #paisley {
