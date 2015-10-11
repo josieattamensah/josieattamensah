@@ -75,6 +75,15 @@ nav a:hover {
 	background-color: #795b5d;
 }
 
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: green;
+	padding: 0 0;
+	z-index: 99;
+	min-width: 1024px;
+}
 
 #name {
 	float: left;
