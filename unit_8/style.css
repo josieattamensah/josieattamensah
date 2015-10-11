@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Cinzel:700);
 @import url(http://fonts.googleapis.com/css?family=Tangerine:700);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
-@import url(http://fonts.googleapis.com/css?family=Quicksand);
+/*@import url(http://fonts.googleapis.com/css?family=Quicksand);*/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300);
+
 
 body {
 	background-color: #201d24;
@@ -22,7 +24,7 @@ h1 {
 h2 {
 	font-size: 2em;
 	color: #ece0c7;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: 'Quicksand', sans-serif;
 	text-decoration: none;
 	list-style-type: none;
 	text-align: center;
@@ -37,30 +39,34 @@ hr {
 
 nav {
 	display: block;
-	width: 20%;
-	background-color: #201d24;
+	width: 100%;
+/*	background-color: #201d24;*/
 	float: left;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	list-style-type: none;
+	font-family: 'Quicksand', sans-serif;
 }
 
 nav a {
 	display: block;
 	background-color: #201d24;
-	margin-bottom: .5em;
 	/*margin-top: .25em;*/
-	padding: .25em;
+	padding: .75em;
 	border: .2em;
 	border-style: solid;
 	border-color: #ece0c7;
 	border-width: 2px;
 	font-size: 1em;
 	color: #ece0c7;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+/*	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 	text-decoration: none;
 	list-style-type: none;
 	text-align: center;
+	width: 80%;
+	height: 50%;
+	margin: auto;
+	margin-bottom: .5em;
 
 }
 
@@ -85,14 +91,14 @@ nav a:hover {
 	background-color: blue;
 	overflow: hidden;
 	background: url(images/rhada.jpg);
-	background-size: 100%;
-	background-position: center;
+	background-size: 75vh;
+	background-position: top left;
 	background-repeat: no-repeat;
 }
 
-#rhada img {
+/*#rhada img {
 	width: auto;
-	height: 100vh;
+	height: 100vh;*/
 }
 
 #paisley {
@@ -109,6 +115,7 @@ nav a:hover {
 	margin: auto;
 /*	background-color: yellow;*/
 	width: 30%
+	: 50vh;
 
 }
 
@@ -116,5 +123,48 @@ nav a:hover {
 	float: left;
 	width: 30%;
 	margin: auto;
-	background-color: yellow;
+/*	background-color: yellow;*/
+}
+
+#shop {
+/*	background-color: red;
+	width: 80%;
+	height: 50%;
+	margin: auto;*/
+}
+
+#cart {
+
+}
+
+#about {
+
+}
+
+#fine {
+
+}
+
+#limited {
+
+}
+
+#news {
+
+}
+
+#stockists {
+
+}
+
+#contact {
+
+}
+
+@media screen and (max-width: 1500px) {
+	#menu {
+	float: left;
+	width: 100%;
+	margin: auto;
+	background-color: blue;
 }
