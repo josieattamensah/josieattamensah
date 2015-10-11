@@ -12,7 +12,7 @@ body {
 }	
 
 header {
-	background-color: #201d00;
+/*	background-color: #201d00;*/
 }	
 
 h1 {
@@ -118,7 +118,7 @@ footer {
 }
 
 #paisley {
-	width: 50%;
+	width: 3.5em;
 	padding: .2em;
 	margin: auto;
 /*	background-color: red;*/
@@ -176,6 +176,18 @@ footer {
 	padding: 160px 0;
 	border: 5px;
 	border-color: red;
+}
+
+#description {
+	font-size: 2em;
+	color: #ece0c7;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	padding: 3em;
+/*	width: 100%;*/
+	margin: auto;
+	text-align: center;
+
 }
 
 #krhalf {
