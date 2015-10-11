@@ -84,23 +84,6 @@ nav a:hover {
 	height: 100vh;
 }
 
-#rhada {
-	float: left;
-	height: 100vh;
-	width: 60%;
-	background-color: blue;
-	overflow: hidden;
-	background: url(images/rhada.jpg);
-	background-size: 75vh;
-	background-position: top left;
-	background-repeat: no-repeat;
-}
-
-/*#rhada img {
-	width: auto;
-	height: 100vh;*/
-}
-
 #paisley {
 	width: 50%;
 	padding: .2em;
@@ -118,6 +101,25 @@ nav a:hover {
 	: 50vh;
 
 }
+
+#rhada {
+	float: left;
+	height: 100vh;
+	width: 60%;
+	background-color: blue;
+	overflow: hidden;
+	background: url(images/rhada.jpg);
+	background-size: 75vh;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+/*#rhada img {
+	width: auto;
+	height: 100vh;*/
+}
+
+
 
 #menu {
 	float: left;
@@ -162,9 +164,27 @@ nav a:hover {
 }
 
 @media screen and (max-width: 1500px) {
-	#menu {
+
+
+	#rhada {
 	float: left;
+	height: 100vh;
+	width: 85%;
+	background-color: blue;
+	overflow: hidden;
+	background: url(images/rhada.jpg);
+	background-size: 75vh;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+
+	#menu {
+/*	float: left;*/
+	display: inline-block;
 	width: 100%;
 	margin: auto;
 	background-color: blue;
+	height: 100vh;
+}
 }
