@@ -117,12 +117,10 @@ nav a:hover {
 
 #name {
 	float: left;
-	width: 10%;
+/*	width: 10%;*/
 	overflow: visible;
-/*	background-color: #201d24;*/
-/*background-color: yellow;*/
+	background-color: yellow;
 	display: inline;
-/*	height: 100vh;*/
 	margin-top: 1em;
 	margin-right: 1em;
 }
