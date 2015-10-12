@@ -94,18 +94,6 @@ nav a:hover {
 	background-color: #3A6F55;
 }
 
-/*footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	background-color: #201D24;
-	padding: 0 0;
-	z-index: 99;
-	min-width: 2em;
-	height: 30px;
-	border-top: 1px #ece0c7;
-}*/
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -132,15 +120,6 @@ nav a:hover {
 	padding-bottom: 10px;
 }
 
-/*#cb {
-	display: block;
-	margin: auto;*/
-/*	background-color: yellow;*/
-/*	width: 30%
-	: 50vh;*/
-
-/*}*/
-
 #vertical-text {
 	transform: rotate(270deg);
 /*	transform-origin: left top 0;*/
@@ -157,28 +136,11 @@ nav a:hover {
   	height: -400px;
 }
 
-/*#rhadadiv {
-/*	float: left;*/
-/*	height: 100%;
-	width: auto;
-	background-color: blue;
-	margin: auto;
-	display: block;
-	overflow: hidden;
-	padding: 10%;*/
-/*	overflow: hidden;
-	background: url(images/rhada.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;*/
-/*}*/
-
 #rhadaimg {
 	height: 100%;
 	width: auto;
-	margin: 0;
+	margin: 0 auto;
 	display: block;
-	position: absolute;
 }
 
 #krfull {
@@ -205,7 +167,7 @@ nav a:hover {
 #krhalf {
 	height: 40vh;
 	width: 100%;
-	background: url(images/krishna_rhada_pink.jpg) no-repeat center center fixed;
+	background: url(images/krishna_rhada_pink.jpg) no-repeat top center fixed;
 	background-size: cover;
 	padding: 200px 0;
 }
