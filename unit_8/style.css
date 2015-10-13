@@ -8,6 +8,7 @@
 body {
 	background-color: #201d24;
 	height: 100%;
+	width: auto;
 
 }	
 
@@ -111,18 +112,22 @@ h4:hover {
 	overflow: visible;
 	display: inline-block;
 	margin-top: 1em;
-	margin-right: 1em;
+/*	margin-right: 1em;*/
 	position: fixed;
 }
 
 #checkout {
 	float: right;
-/*	display: inline-block;*/
+	display: inline-block;
 	margin: 1em;
 	position: fixed;
 	height: 3em;
 	width: auto;
 /*	background-color: blue;*/
+}
+
+#checkout:hover {
+	color: #51758B;
 }
 
 #paisley {
@@ -194,6 +199,7 @@ h4:hover {
 	margin: auto;
 	background-color: #ffffe0;
 	padding-bottom: 3em;
+	display: block;
 }
 
 @media screen and (max-width:800px){
