@@ -43,7 +43,7 @@ h4 {
 	color: #ece0c7;
 	font-family: 'Quicksand', sans-serif;
 	text-transform: uppercase;
-	padding: 3em 1em 1em;
+	padding: 3em 1em;
 	width: 100%;
 	margin: auto;
 	text-align: center;
@@ -130,11 +130,11 @@ h4:hover {
 
 #paisley {
 	width: 3.5em;
-	padding: .2em;
+/*	padding: .2em;*/
 	margin: auto;
 /*	background-color: red;*/
 	display: block;
-	padding-bottom: 10px;
+/*	padding-bottom: 10px;*/
 }
 
 #vertical-text {
