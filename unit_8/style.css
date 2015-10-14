@@ -168,7 +168,7 @@ h4:hover {
 
 #krfull {
 	height: 100vh;
-	width: auto;
+	width: 100%;
 	background: url(images/krishna_and_radha.jpg) no-repeat top center fixed;
 	background-size: 100%;
 	margin: auto;
@@ -188,8 +188,8 @@ h4:hover {
 
 #krhalf {
 /*	height: 40vh;*/
-	width: 100%;
-	background: url(images/krishna_rhada_pink.jpg) no-repeat top center fixed;
+	width: 100vw;
+	background: url(images/krishna_rhada_pink.jpg) no-repeat center center fixed;
 	background-size: cover;
 	padding: 200px 0;
 }
