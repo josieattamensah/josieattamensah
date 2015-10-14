@@ -9,11 +9,6 @@ body {
 	background-color: #201d24;
 	height: 100%;
 	width: auto;
-
-}	
-
-header {
-/*	background-color: #201d00;*/
 }	
 
 h1 {
@@ -60,8 +55,6 @@ hr {
 nav {
 	display: block;
 	width: auto;
-/*	background-color: #201d24;*/
-/*	float: left;*/
 	margin: auto;
 	padding: 0;
 	list-style-type: none;
@@ -71,7 +64,6 @@ nav {
 nav a {
 	display: block;
 	background-color: #201d24;
-	/*margin-top: .25em;*/
 	padding: .75em;
 	border: .2em;
 	border-style: solid;
@@ -79,7 +71,6 @@ nav a {
 	border-width: 2px;
 	font-size: 1.25em;
 	color: #ece0c7;
-/*	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 	text-decoration: none;
 	list-style-type: none;
 	text-align: center;
@@ -108,10 +99,8 @@ h4:hover {
 } 
 
 #name {
-/*	float: left;*/
 	overflow: visible;
 	margin-top: 1em;
-/*	margin-right: 1em;*/
 	position: fixed;
 	left: 0;
 	height: auto;
@@ -124,7 +113,6 @@ h4:hover {
 	position: fixed;
 	height: 3em;
 	width: auto;
-/*	background-color: blue;*/
 }
 
 
@@ -136,11 +124,6 @@ h4:hover {
 
 #vertical-text {
 	transform: rotate(270deg);
-/*	transform-origin: left top 0;*/
-/*	float: none;*/
-/*	background-color: red;*/
-/*	background-position: fixed;*/
-/*	color: yellow;*/
 	display: block;
 	white-space: nowrap;
   	-webkit-transform: rotate(270deg);
@@ -148,7 +131,6 @@ h4:hover {
   	-ms-transform: rotate(270deg);
   	-o-transform: rotate(270deg);
   	height: -400px;
-/*  	clear: both;*/
 }
 
 #rhadadiv {
@@ -160,7 +142,6 @@ h4:hover {
 	margin: auto;
 	display: block;
 	margin-top: 2em;
-/*	margin-bottom: 2em;*/
 }
 
 #krfull {
@@ -169,9 +150,6 @@ h4:hover {
 	background-size: 100%;
 }
 
-/*#krfullimg {
-	max-width: 100%;
-}*/
 
 #description {
 	font-size: 2em;
@@ -186,7 +164,6 @@ h4:hover {
 }
 
 #krhalf {
-/*	height: 40vh;*/
 	width: 100vw;
 	background: url(images/krishna_rhada_pink.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -195,7 +172,6 @@ h4:hover {
 
 
 #menu {
-/*	float: left;*/
 	width: 45%;
 	margin: auto;
 	background-color: #ffffe0;
@@ -211,8 +187,6 @@ h4:hover {
 	color: #ece0c7;
 	font-family: 'Quicksand', sans-serif;
 	text-transform: uppercase;
-/*	padding: 5%;
-	width: 75%;*/
 	margin: auto;
 	text-align: center;
 	display: block;
@@ -244,13 +218,16 @@ h1 {
 
 @media screen and (max-width:800px){
 
-#krfull {
-	width: 100vw;
-/*	height: auto;*/
-	background: url(images/krishna_and_radha.jpg) no-repeat top center fixed;
-	background-size: 100%;
-	margin: auto;
-}
+h1 {
+	font-family: 'Cinzel', serif;
+	color: #ece0c7;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-left: -8em;
+	margin-top: 1em;
+	-webkit-text-stroke: 1px black;
+	z-index: 99;
+}	
 
 h4 {
 	font-size: 3em;
@@ -263,6 +240,14 @@ h4 {
 	text-align: center;
 }
 
+#krfull {
+	width: 100vw;
+	background: url(images/krishna_and_radha.jpg) no-repeat top center fixed;
+	background-size: 100%;
+	margin: auto;
+}
+
+
 #checkout {
 	position: fixed;
 	right: 0;
@@ -272,7 +257,6 @@ h4 {
 }
 
 #menu {
-/*	float: left;*/
 	width: 75%;
 	margin: auto;
 	background-color: #ffffe0;
@@ -280,16 +264,6 @@ h4 {
 	display: block;
 }
 
-h1 {
-	font-family: 'Cinzel', serif;
-	color: #ece0c7;
-	text-transform: uppercase;
-	font-size: 1em;
-	margin-left: -8em;
-	margin-top: 1em;
-	-webkit-text-stroke: 1px black;
-	z-index: 99;
-}
 
 #paisley {
 	width: 2em;
