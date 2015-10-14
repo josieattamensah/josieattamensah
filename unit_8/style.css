@@ -168,10 +168,14 @@ h4:hover {
 
 #krfull {
 	height: 100vh;
-/*	width: 100%;*/
+	width: auto;
 	background: url(images/krishna_and_radha.jpg) no-repeat top center fixed;
 	background-size: 100%;
 }
+
+/*#krfullimg {
+	max-width: 100%;
+}*/
 
 #description {
 	font-size: 2em;
@@ -182,6 +186,7 @@ h4:hover {
 /*	width: 100%;*/
 	margin: auto;
 	text-align: center;
+	display: block;
 
 }
 
