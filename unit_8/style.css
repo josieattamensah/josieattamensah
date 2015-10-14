@@ -154,9 +154,12 @@ h4:hover {
 /*  	clear: both;*/
 }
 
+#rhadadiv {
+	width: 100%;
+}
+
 #rhadaimg {
-	height: 100%;
-	width: auto;
+	height: 100vh;
 	margin: 0 auto;
 	display: block;
 	margin-top: 2em;
