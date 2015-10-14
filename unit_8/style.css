@@ -181,7 +181,7 @@ h4:hover {
 	color: #ece0c7;
 	font-family: 'Quicksand', sans-serif;
 	text-transform: uppercase;
-	padding: 10%;
+	padding: 10% 0;
 	width: 80%;
 	margin: auto;
 	text-align: center;
@@ -220,5 +220,22 @@ h4:hover {
 
 
 @media screen and (max-width: 1150px) {
+
+#description {
+	font-size: 1.5em;
+	color: #ece0c7;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+/*	padding: 5%;
+	width: 75%;*/
+	margin: auto;
+	text-align: center;
+	display: block;
+}
+
+#description p {
+	width: 90%;
+	margin: auto;
+}
 
 }
