@@ -160,7 +160,7 @@ h4:hover {
 	margin: auto;
 	display: block;
 	margin-top: 2em;
-	margin-bottom: 2em;
+/*	margin-bottom: 2em;*/
 }
 
 #krfull {
@@ -261,7 +261,24 @@ h4 {
 	width: 75%;
 	margin: auto;
 	text-align: center;
+}
 
+#checkout {
+	position: fixed;
+	right: 0;
+	margin: 1em;
+	height: 1.5em;
+	width: auto;
+}
+
+#menu {
+/*	float: left;*/
+	width: 75%;
+	margin: auto;
+	background-color: #ffffe0;
+	padding-bottom: 2em;
+	display: block;
 }
 
 }
+
