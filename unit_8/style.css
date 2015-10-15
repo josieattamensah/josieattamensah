@@ -247,6 +247,13 @@ h4 {
 	margin: auto;
 }
 
+#krhalf {
+	width: 100vw;
+	background: url(images/krishna_rhada_pink.jpg) no-repeat center center fixed;
+	background-size: 100%;
+	padding: 200px 0;
+}
+
 
 #checkout {
 	position: fixed;
